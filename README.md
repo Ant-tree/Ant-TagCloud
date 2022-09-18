@@ -5,13 +5,31 @@ Animated Cloud Tag for Android
 
 ## Demo
 
-![demo](Assets\demo.gif)
 
-And of course, you can select the item.
+<table>
 
-![selectable](Assets\selectable.gif)
+<tr>
+<td>
+Animation
+</td>
+<td>
+Selectable  
+</td>
+</tr>
 
+<tr>
+</tr>
+  
+<tr>
+<td>
+<img src="Assets/demo.gif" alt="demo">
+</td>
+<td>
+<img src="Assets/selectable.gif" alt="selectable">
+</td>
+</tr>
 
+</table>
 
 ## Basic Usage
 
@@ -55,4 +73,4 @@ Number of maximum selections can be limited using ```setMaxSeletableNumber```
 .setMaxSeletableNumber(3)
 ```
 
-![selectable_limit](Assets\selectable_limit.gif)
+![selectable_limit](Assets/selectable_limit.gif)
