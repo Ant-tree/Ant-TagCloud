@@ -33,6 +33,14 @@ Selectable
 
 ## Basic Usage
 
+Add AntCloudTagView in your layout
+```xml
+<com.anttree.ant_cloud_tag.AntCloudTagView
+    android:id="@+id/antListView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+```
+
 ```java
 new AntCloudTagBuilder(context, false)
 	.setDefaultMaxLength(15)
