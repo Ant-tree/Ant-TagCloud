@@ -40,7 +40,7 @@ Add AntCloudTagView in your layout
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
 ```
-
+Connect AntCloudTagBuilder with your view in controller
 ```java
 new AntCloudTagBuilder(context, false)
 	.setDefaultMaxLength(15)
