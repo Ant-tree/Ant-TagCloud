@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00ffffff</color>
+    <color name="colorPrimary">#676767</color>
+    <color name="colorPrimaryDark">#343434</color>
+    <color name="colorPrimaryPastel">#5c6caa</color>
+    <color name="colorBackground">#EEEEEE</color>
+    <color name="colorAccent">#9b9b9b</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhite80">#AAFFFFFF</color>
+    <color name="colorWhite50">#88FFFFFF</color>
+    <color name="colorWhite30">#44FFFFFF</color>
+    <color name="colorWhite10">#33FFFFFF</color>
+    <color name="colorWhiteDim">#AAD1D1D1</color>
+    <color name="colorBlack90">#EE000000</color>
+    <color name="colorBlack85">#CC000000</color>
+    <color name="colorBlack80">#AA000000</color>
+    <color name="colorBlack70">#88000000</color>
+    <color name="colorBlack60">#66000000</color>
+    <color name="colorBlack50">#80000000</color>
+    <color name="colorTrans">#00FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorNavy">#484759</color>
+    <color name="colorSkyBlue">#3a64c9</color>
+    <color name="colorBlue">#1f3878</color>
+    <color name="colorLightBlue">#2dd0e9</color>
+    <color name="colorNavyDark">#24242d</color>
+    <color name="colorGray">#d6d6d6</color>
+    <color name="colorOrange">#FFA940</color>
+    <color name="colorOrangeDark">#BF7F45</color>
+    <color name="colorYellow">#FFD157</color>
+    <color name="colorGrayDark">#666666</color>
+    <color name="colorLightGray">#F5F5F5</color>
+    <color name="colorOlive">#5c5c33</color>
+    <color name="colorOliveDark">#2e2e1a</color>
+    <color name="colorBrown">#5c2c33</color>
+    <color name="colorRed">#DD0000</color>
+    <color name="colorBrownDark">#2e161a</color>
+    <color name="colorSpinach">#087a7d</color>
+    <color name="colorPearl">#c29797</color>
+    <color name="colorLightBrown">#c08278</color>
+    <color name="colorOliveGreen">#384b2d</color>
+    <color name="colorGreen">#008800</color>
+    <color name="colorPurple">#a386bf</color>
+
+    <color name="pantoneColor_Red">#ea445a</color>
+    <color name="pantoneColor_Orange">#f99157</color>
+    <color name="pantoneColor_Yellow">#fac863</color>
+    <color name="pantoneColor_Green">#99c794</color>
+    <color name="pantoneColor_Turquoise">#5fb3b3</color>
+    <color name="pantoneColor_ProcessBlue">#6699cc</color>
+    <color name="pantoneColor_LapisBlue">#5c6caa</color>
+    <color name="pantoneColor_RadiantOrchid">#a156b1</color>
+    <color name="pantoneColor_CoolGray">#868686</color>
+    <color name="pantoneColor_GlacierGray">#d8d8d8</color>
+
+</resources>
