@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Welcome To Ant Cloud Tag"
+        android:textColor="@color/colorGrayDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="8dp"
+        android:text="This is the demo for AntTagCloud library\nPlease download the source to modify the attributes,\ncurrently no release bundles are served.\nDo WHATEVER YOU WANT with these codes"
+        android:textColor="@color/colorGrayDark"
+        android:textSize="12sp" />
+
+    <com.anttree.ant_tag_cloud.AntTagCloudView
+        android:id="@+id/antListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
