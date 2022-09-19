@@ -1,10 +1,10 @@
-# Ant-CloudTag
+# Ant-TagCloud
 
-Animated Cloud Tag for Android
+Animated Tag Cloud for Android
 
 ![image](https://user-images.githubusercontent.com/88021994/190908407-9c5efad3-afe0-4f08-95eb-bf4263bf3be9.png)
 
-> Currently, no release bundles are suppported, so download the full source code of "CloudTag", and modify&apply based on it.
+> Currently, no release bundles are suppported, so download the full source code of "TagCloud", and modify&apply based on it.
 
 ## Demo
 
@@ -36,21 +36,21 @@ Selectable
 
 ## Basic Usage
 
-Add AntCloudTagView in your layout
+Add AntTagCloudView in your layout
 ```xml
-<com.anttree.ant_cloud_tag.AntCloudTagView
+<com.anttree.ant_tag_cloud.AntTagCloudView
     android:id="@+id/antListView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
 ```
-Connect AntCloudTagBuilder with your view in controller
+Connect AntTagCloudBuilder with your view in controller
 ```java
-new AntCloudTagBuilder(context, false)
+new AntTagCloudBuilder(context, false)
 	.setDefaultMaxLength(15)
 	.setMaxSeletableNumber(3)
 	.setMaxColumn(10)
 	.expanded(true)
-	.sizingPolicy(AntCloudTagBuilder.SIZING_WITH_FONT_CONFIGURATION)
+	.sizingPolicy(AntTagCloudBuilder.SIZING_WITH_FONT_CONFIGURATION)
 	.setAnimatedChange(true)
 	.initialize(getList())
 	.with(findViewById(R.id.antListView))
@@ -59,7 +59,7 @@ new AntCloudTagBuilder(context, false)
 
 ### Row length
 
-AntCloudTag will determine the column based on text length, so you should manage the max length for each row.
+AntTagCloud will determine the column based on text length, so you should manage the max length for each row.
 
 ```java
 //Set default row max length into 15 letters
